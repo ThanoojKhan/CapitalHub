@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 0 3rem;
+}
+
+.text-primary {
+  color: theme('colors.textprimary');
+}
+
+.text-secondary {
+  color: theme('colors.textsecondary');
+}
+
+.bg-primary {
+  background-color: theme('colors.bgprimary');
+}
+
+.bg-secondary {
+  background-color: theme('colors.bgsecondary');
+}
