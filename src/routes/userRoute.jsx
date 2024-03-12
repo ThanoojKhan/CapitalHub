@@ -2,7 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NotFound from '../components/notFound';
 import Home from '../pages/user/home';
-
+import About from '../pages/user/about'
+import Contact from '../pages/user/contact'
 function UserRoute() {
     return (
         <Routes>
