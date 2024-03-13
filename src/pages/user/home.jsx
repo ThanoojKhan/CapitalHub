@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar';
 import Hero from '../../components/hero'
 import ImpactStats from '../../components/impactStats';
 import FundraisingSection from '../../components/fundRaising';
+import Campaign from '../../components/campaign';
 function Home() {
 
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Hero/>
       <ImpactStats/>
       <FundraisingSection/>
+      <Campaign/>
     </>
   );
 }

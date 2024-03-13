@@ -36,7 +36,7 @@ const features = [
 
 function FundraisingSection() {
     return (
-        <section className="flex justify-center items-center py-20 my-8 bg-lime-300 rounded-3xl">
+        <section className="flex justify-center max-w-screen-2xl mx-auto items-center py-20 my-8 bg-lime-300 rounded-3xl">
             <div className="flex flex-col mb-1 max-w-screen-2xl mx-auto">
                 <h2 className="self-center text-4xl font-semibold text-center text-black w-full max-md:max-w-full">Fundraising on Buddha Trust takes just<br /> a few minutes</h2>
                 <div className="mt-16">
