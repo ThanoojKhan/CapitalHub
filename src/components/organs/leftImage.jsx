@@ -26,7 +26,7 @@ const ImageGallery = () => {
     ];
 
     return (
-        <div className="flex flex-col grow ml-auto">
+        <div className="flex flex-col grow ">
             {images.map((image, index) => (
                 <ImageCard key={index} {...image} />
             ))}

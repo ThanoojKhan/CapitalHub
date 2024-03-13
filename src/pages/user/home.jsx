@@ -7,6 +7,9 @@ import Campaign from '../../components/campaign';
 import CharityComponent from '../../components/charity';
 import Banner from '../../components/features';
 import JoinCommunity from '../../components/joinCommunity';
+import CampaignDisplay from '../../components/campaign2';
+import Footer from '../../components/footer';
+
 function Home() {
 
   return (
@@ -19,6 +22,8 @@ function Home() {
       <CharityComponent />
       <Banner />
       <JoinCommunity />
+      <CampaignDisplay />
+      <Footer />
     </>
   );
 }

@@ -24,7 +24,6 @@ const data = [
     }
 ];
 
-
 const Button = ({ children }) => {
     return (
         <button className="justify-center px-10 py-5 mt-14 text-base font-medium text-white whitespace-nowrap bg-neutral-800 rounded-[70px] max-md:px-5 max-md:mt-10">
@@ -58,7 +57,6 @@ const Features = () => {
                 <Button>Donate Now</Button>
             </div>
         </section>
-
     );
 };
 

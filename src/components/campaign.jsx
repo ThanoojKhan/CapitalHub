@@ -58,7 +58,7 @@ const Dashboard = () => {
 
     return (
         <section className="max-w-screen-2xl my-20 mx-auto">
-            <div className="flex gap-10 justify-center items-center">
+            <div className="flex justify-center items-center">
                 <div className="flex flex-row justify-center items-center">
                     {impactData.map((data, index) => (
                         <div key={index} className="flex mx-10 transition-transform duration-300 ease-in-out transform hover:scale-125">
@@ -67,7 +67,7 @@ const Dashboard = () => {
                     ))}
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                    <article className="flex flex-col items-start self-stretch px-5 my-auto text-4xl font-semibold text-black max-md:mt-10 max-md:max-w-full">
+                    <article className="flex flex-col items-start self-stretch my-auto text-4xl font-semibold text-black max-md:mt-10 max-md:max-w-full">
                         <h2 className="text-center whitespace-nowrap">No More Homeless</h2>
                         <h3 className="text-center">No More Hunger</h3>
                         <p className="self-stretch mt-3 text-lg font-medium text-zinc-800 max-md:max-w-full">Lorem ipsum dolor sit amet consectetur. At consequat purus hendrerit proin risus Sit purus ante dictum in malesuada id.Lorem </p>
@@ -76,6 +76,7 @@ const Dashboard = () => {
                 </div>
             </div>
         </section>
+
     );
 };
 

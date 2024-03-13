@@ -16,7 +16,6 @@ const Image = ({ src, alt }) => (
     />
 );
 
-
 function CharityComponent() {
     return (
         <section className="max-w-screen-2xl my-20 mx-auto">
