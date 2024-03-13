@@ -2,17 +2,23 @@ import React from 'react';
 import Navbar from '../../components/navbar';
 import Hero from '../../components/hero'
 import ImpactStats from '../../components/impactStats';
-import FundraisingSection from '../../components/fundRaising';
+import Fundraising from '../../components/fundRaising';
 import Campaign from '../../components/campaign';
+import CharityComponent from '../../components/charity';
+import Banner from '../../components/features';
+import JoinCommunity from '../../components/joinCommunity';
 function Home() {
 
   return (
     <>
       <Navbar />
-      <Hero/>
-      <ImpactStats/>
-      <FundraisingSection/>
-      <Campaign/>
+      <Hero />
+      <ImpactStats />
+      <Fundraising />
+      <Campaign />
+      <CharityComponent />
+      <Banner />
+      <JoinCommunity />
     </>
   );
 }
