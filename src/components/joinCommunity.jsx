@@ -1,6 +1,6 @@
 import React from "react";
-import RightImage from '../components/organs/rightImage'
-import LeftImage from '../components/organs/leftImage'
+import RightImage from './organs/rightImage'
+import LeftImage from './organs/leftImage'
 
 const JoinCommunitySection = () => {
 
