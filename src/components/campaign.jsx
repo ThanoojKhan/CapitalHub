@@ -57,7 +57,7 @@ const Dashboard = () => {
     }];
 
     return (
-        <section className="max-w-screen-2xl my-20 mx-auto">
+        <section className="max-w-screen-2xl containers my-20 mx-auto">
             <div className="flex justify-center items-center">
                 <div className="flex flex-row justify-center items-center">
                     {impactData.map((data, index) => (

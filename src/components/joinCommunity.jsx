@@ -5,7 +5,7 @@ import LeftImage from '../components/organs/leftImage'
 const JoinCommunitySection = () => {
 
     return (
-        <section className="max-w-screen-2xl mx-auto">
+        <section className="max-w-screen-2xl containers mx-auto">
             <div className="text-center my-20">
                 <h2 className="text-4xl font-semibold text-black">
                     Join our community for donating and be a part of a <br /> positive change in the world.

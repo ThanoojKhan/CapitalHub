@@ -42,7 +42,7 @@ const FeatureCard = ({ image, title, description }) => (
 
 const Features = () => {
     return (
-        <section className="max-w-screen-2xl my-20 mx-auto">
+        <section className="max-w-screen-2xl containers my-20 mx-auto">
             <div className="text-center">
                 <h2 className="text-4xl font-semibold text-black">
                     We Believe that We can Save More Lives with You

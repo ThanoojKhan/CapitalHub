@@ -18,7 +18,7 @@ const Image = ({ src, alt }) => (
 
 function CharityComponent() {
     return (
-        <section className="max-w-screen-2xl my-20 mx-auto">
+        <section className="max-w-screen-2xl containers my-20 mx-auto">
             <section className="flex gap-5 max-md:flex-col max-md:gap-0 items-center">
                 <article className="flex flex-col w-[50%] max-md:w-full">
                     <h2 className="text-4xl font-semibold text-black">

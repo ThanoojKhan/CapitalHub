@@ -62,8 +62,8 @@ const CampaignCard = ({ imgSrc, progressBarColor, completionPercentage, donorsCo
 
 function CampaignDisplay() {
     return (
-        <section className="max-w-screen-2xl my-20 mx-auto">
-            <div className="text-center  mb-10">
+        <section className="max-w-screen-2xl containers my-20 mx-auto">
+            <div className="text-center mb-10">
                 <h2 className="text-4xl font-semibold text-black">
                     Our Campaign
                 </h2>
