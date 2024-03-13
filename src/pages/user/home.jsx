@@ -1,29 +1,31 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import Navbar from '../../components/navbar';
-import Hero from '../../components/hero'
-import ImpactStats from '../../components/impactStats';
-import Fundraising from '../../components/fundRaising';
-import Campaign from '../../components/campaign';
-import CharityComponent from '../../components/charity';
-import Banner from '../../components/features';
-import JoinCommunity from '../../components/joinCommunity';
-import CampaignDisplay from '../../components/campaign2';
-import Footer from '../../components/footer';
+
+const LazyHero = lazy(() => import('../../components/hero'));
+const LazyImpactStats = lazy(() => import('../../components/impactStats'));
+const LazyFundraising = lazy(() => import('../../components/fundRaising'));
+const LazyCampaign = lazy(() => import('../../components/campaign'));
+const LazyCharityComponent = lazy(() => import('../../components/charity'));
+const LazyBanner = lazy(() => import('../../components/features'));
+const LazyJoinCommunity = lazy(() => import('../../components/joinCommunity'));
+const LazyCampaignDisplay = lazy(() => import('../../components/campaign2'));
+const LazyFooter = lazy(() => import('../../components/footer'));
 
 function Home() {
-
   return (
     <>
       <Navbar />
-      <Hero />
-      <ImpactStats />
-      <Fundraising />
-      <Campaign />
-      <CharityComponent />
-      <Banner />
-      <JoinCommunity />
-      <CampaignDisplay />
-      <Footer />
+      <Suspense fallback={<div>Loading...</div>}>
+        <LazyHero />
+        <LazyImpactStats />
+        <LazyFundraising />
+        <LazyCampaign />
+        <LazyCharityComponent />
+        <LazyBanner />
+        <LazyJoinCommunity />
+        <LazyCampaignDisplay />
+        <LazyFooter />
+      </Suspense>
     </>
   );
 }
