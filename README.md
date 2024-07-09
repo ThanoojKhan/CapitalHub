@@ -7,7 +7,7 @@ This project is for the Capital Hub Machine Task, consisting of a landing page, 
 1. Clone the repository:
 
 Navigate to the project directory:
-cd capital-hub-machine-task
+cd CapitalHub
 
 2. Install dependencies:
 
