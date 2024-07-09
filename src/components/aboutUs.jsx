@@ -13,6 +13,7 @@ const AboutImage = () => (
     </aside>
 );
 
+
 const AboutSection = () => {
     return (
         <section className="max-w-screen-2xl containers my-20 mx-auto">
